@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    height: 100vh;
+    background-color: rgb(59, 59, 59);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}
+.big-box{
+    margin-left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nav-item{
+    background-color: rgb(241, 218, 87);
+    width: 499px;
+    height: 660px;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.x-icon-text{
+    font-size: 25px;
+}
+.x-icon-text:hover{
+    transition: .4s;
+    color: red;
+}
+.list-ul{
+    margin-top: 116%;
+    display: flex;
+    justify-content: flex-end;
+}
+.div-one{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.a-one{
+    color:  rgb(59, 59, 59);
+    padding: 0px 20px;
+}
+.box-two{
+    box-shadow: 0px 5px 7px 0px rgb(182, 180, 180);
+    width: 500px;
+    height: 440px;
+    background-color: white;
+    margin-top: 50px;
+    transform: translate(-450px);
+}
+.avatar{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    transform: translateY(-30px);
+    margin-left: 30px;
+}
+.user-name{
+    padding: 5px 0px 5px 0px;
+    color:  rgb(59, 59, 59);
+}
+.user-text{
+    outline: none;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    color:  rgb(59, 59, 59);    
+}
+.label-one{
+    padding: 10px 0px 10px 0px;
+    width: 80%; 
+    display: block;
+    margin: 0 auto;
+    border-bottom: 1px  solid black;
+}
+.last-name{
+    outline: none;
+    padding: 5px 0px 5px 0px;
+    border: none;
+    color:  rgb(59, 59, 59); 
+}
+.form-one{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-two{
+    padding: 30px;
+    margin-left: 15px;
+    color:  rgb(59, 59, 59); 
+}
+.label-name{
+ border-bottom: 1px solid black;
+ width: 40%;
+}
+.label-name-two{
+    border-bottom: 1px solid black;
+    width: 80%;
+}
+.text-twoo{
+    margin-left: 40px;
+    color:  rgb(59, 59, 59); 
+}
